@@ -26,6 +26,43 @@
             @enderror
 
             </div>
+            <div class="form-group">
+            <label class="info-title">who</label>
+         <textarea class="form-control" name='who' rows="4" id="comment">{{$info->who}}</textarea>
+       
+          @error('who')
+            <span class="text-danger">{{ $message }}</span>
+            @enderror
+
+            </div>
+            <div class="form-group">
+            <label class="info-title">vission</label>
+         <textarea class="form-control" name='vission' rows="4" id="comment">{{$info->vission}}</textarea>
+       
+          @error('vission')
+            <span class="text-danger">{{ $message }}</span>
+            @enderror
+
+            </div>
+            <div class="form-group">
+            <label class="info-title">mission</label>
+         <textarea class="form-control" name='mission' rows="4" id="comment">{{$info->mission}}</textarea>
+       
+          @error('mission')
+            <span class="text-danger">{{ $message }}</span>
+            @enderror
+
+            </div>
+            <div class="form-group">
+            <label class="info-title">company </label>
+         <textarea class="form-control" name='company' rows="4" id="comment">{{$info->company}}</textarea>
+       
+          @error('company')
+            <span class="text-danger">{{ $message }}</span>
+            @enderror
+
+            </div>
+    
            <div class="form-group">
             <label class="info-title">Refund </label>
          <textarea class="form-control" name='refund' rows="4" id="comment">{{$info->refund}}</textarea>

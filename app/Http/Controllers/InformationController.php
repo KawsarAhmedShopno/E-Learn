@@ -40,7 +40,11 @@ class InformationController extends Controller
         'about'=> 'required' ,
         'refund'=> 'required' ,
         'terms'=> 'required' ,
-        'privacy'=> 'required' 
+        'privacy'=> 'required' ,
+        'who'=> 'required' ,
+        'vission'=> 'required' ,
+        'mission'=> 'required' ,
+        'company'=> 'required' ,
        ]);
                
   $data = $request->all();
