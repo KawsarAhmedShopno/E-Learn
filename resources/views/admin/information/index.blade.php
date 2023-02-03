@@ -46,10 +46,10 @@
                                                 
                                                 @foreach($info as $info)
                                                 <td><strong>01</strong></td>
-                                                <td>{{$info->about}}</td>
-                                                <td>{{$info->refund}}</td>
-                                                <td>{{$info->terms}}</td>
-                                                <td>{{$info->privacy}}</td>
+                                                <td>{{Str::limit($info->about, 50)}}</td>
+                                                <td>{{Str::limit($info->terms, 50)}}</td>
+                                                <td>{{Str::limit($info->refund, 50)}}</td>
+                                                <td>{{Str::limit($info->privacy, 50)}}</td>
                                                
                                                 <td>
 													<div class="dropdown">
