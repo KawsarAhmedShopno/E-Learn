@@ -16,6 +16,11 @@ return new class extends Migration
         Schema::create('information', function (Blueprint $table) {
             $table->id();
             $table->text('about');
+            $table->text('who');
+            $table->text('vission'); 
+            $table->text('mission'); 
+            $table->text('company');
+            
             $table->text('refund'); 
             $table->text('terms');
             $table->text('privacy');
